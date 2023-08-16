@@ -4,7 +4,7 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import { initializeIcons } from "@fluentui/react";
 
 import "./index.css";
-import BackgroundImage from "assets/Background.jpg";
+import BackgroundImage from "./assets/Background.jpg";
 import Layout from "./pages/layout/Layout";
 import NoPage from "./pages/NoPage";
 import Chat from "./pages/chat/Chat";
@@ -31,4 +31,4 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
 );
 
 const content = document.querySelector('html');
-content?.style.setProperty('--background-image--', `url(${backgroundImage})`);
+content?.style.setProperty('--background-image--', `url(${BackgroundImage})`);

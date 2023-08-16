@@ -7,7 +7,7 @@ import remarkGfm from 'remark-gfm'
 import rehypeRaw from "rehype-raw"; 
 
 import styles from "./Chat.module.css";
-import UFLogo from "../../assets/UF.svg";
+import UFLogo from "../../assets/UF.png";
 
 import {
     ChatMessage,
